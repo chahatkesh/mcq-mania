@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mcqmania</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2906287251.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section class="sub-header">
+      <nav>
+          <a href="index.html"><img src="images/logo.png"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="notes.html">NOTES</a></li>
+                <li><a href="contact.html">CONACT</a></li>
+              </ul>
+          </div>
+          <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>NOTES FOR CBSE 2022</h1><i class="fas fa-book-reader"></i>
+</section>  
+
+<!--------- notes ------>
+
+<section class="notes">
+    <div class="row">
+        <div class="notes-col">
+            <a href=""><img src="images/notes9.png"></a>
+            <h3>Best Notes For Class-9 [CBSE-2022] <b><a href="">CLICK HERE</a></b></h3>
+        </div>
+        <div class="notes-col">
+            <a href=""><img src="images/notes10.png"></a>
+           <h3>Best Notes For Class-10 [CBSE-2022] <b><a href="">CLICK HERE</a></b></h3>
+        </div>
+        <div class="notes-col">
+            <a href=""><img src="images/notes11.png"></a>
+            <h3>Best Notes For Class-11 [CBSE-2022] <b><a href="">CLICK HERE</a></b></h3>
+        </div>
+        <div class="notes-col">
+            <a href=""><img src="images/notes12.png"></a>
+            <h3>Best Notes For Class-12 [CBSE-2022] <b><a href="">CLICK HERE</a></b></h3>
+        </div>
+    </div>
+</section>
+
+<!--------- comment ------>
+
+<section class="comment">
+    <div class="row">
+
+        <div class="comment-col">
+
+           <h3>LEAVE A COMMENT</h3>
+            <form class="commentform">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your Comment">
+                </textarea>
+                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+
+        </div>
+
+        <div class="comment-col">
+            <h3>ONLY FOR YOU</h3>
+            <div>
+                <h4><span><a href="">NCERT Solution</a></span></h4>
+            </div>
+            <div>
+                <h4><span><a href="">NCERT Books</a></span></h4>
+            </div>
+            <div>
+                <h4><span><a href="">Best Books</a></span></h4>
+            </div>
+            <div>
+                <h4><span><a href="">Motivation</a></span></h4>
+            </div>
+            <div>
+                <h4><span><a href="">Tricks</a></span></h4>
+            </div>
+            <div>
+                <h4><span><a href="">Facts</a></span></h4>
+            </div>
+        </div>
+
+    </div>
+    
+</section>
+
+<!--Footer-->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>MCQ Mania is the best Educational platform for Student studying in <b>CLASS 9 to 12</b> CBSE Board. <br> We are providing the Best Summary, MCQs, PYQs According to Latest CBSE Syllabus.</p>
+    <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <a href="https://www.youtube.com/channel/UCQ9jtWWVU8vfnw5vHiu3KTw"><i class="fab fa-youtube"></i></a>
+        <i class="fas fa-thumbs-up"></i>
+    </div>
+    <p>Made with <i class="fas fa-heart"></i> By MCQ Mania </p>
+</section>
+
+
+
+<!------JavaScript for toggle Menu----->
+
+
+
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+</script> 
+
+</body>
+</html>
